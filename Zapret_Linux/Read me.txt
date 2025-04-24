@@ -1,17 +1,24 @@
 
 ***************************
 1)
+
 chmod 777 /opt
 cd /opt
 
 2)
 
-Пкинуть файл 
+кинуть файл 
+
+git clone https://github.com/BadalovR/Zapret-Deb.git
+
 
 3)
- cd /opt/Zapret_Linux/zapret-discord-youtube-linux
-sudo chmod 777 /opt/Zapret_Linux/zapret-discord-youtube-linux/nfqws
-sudo chmod 777 /opt/Zapret_Linux/zapret-discord-youtube-linux/main_script.sh
+
+ cd /opt/Zapret-Deb/Zapret_Linux/zapret-discord-youtube-linux/
+
+ chmod 777  /opt/Zapret-Deb/Zapret_Linux/zapret-discord-youtube-linux/main_script.sh
+
+ chmod 777  /opt/Zapret-Deb/Zapret_Linux/zapret-discord-youtube-linux/nfqws
 
 
 
@@ -26,7 +33,7 @@ sudo bash main_script.sh
 
 4) после жмем 
 
-6   ./general_alt4.bat
+8  general_alt4.bat (цифра меняется)
 
 1  enp0s3
 
@@ -47,14 +54,14 @@ wget https://repo.expasys.ru/qspro-install.sh
 chmod 777 qspro-install.sh
 ./qspro-install.sh
 
+
 ##############################################################################
 
 Если надо добавить ссылку на сайт или репо , добавить сюда , ссылки в столбик как в файле 
 
-\Zapret\Zapret_Linux\zapret-discord-youtube-linux\zapret-latest\list-general.txt
+nano /opt/Zapret-Deb/Zapret_Linux/zapret-discord-youtube-linux/zapret-latest/list-general.txt
 
 ##############################################################################
-
 
 
 ТУТ ИСХОДНИК
